@@ -1,5 +1,54 @@
 .button{
-    font-size:24px;
-    width:40px;
-    background-color: rgb(2, 255, 23);
+    font-size:  1.2em;
+    width:100px;
+    background-color: rgb(91, 96, 100);
+    margin: 13px;
+
 }
+
+body {
+   background-image: url(5d59877ed301417194b5.jpg)
+}
+
+
+.container{
+    margin: 100px auto;
+    width: 600;
+    
+    
+}   
+.input{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.buttons{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.inputs{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    
+  
+
+     
+
+
+#result{
+    text-align: center;
+    font-size: 2em;
+    background-color: rgb(0, 255, 34);
+    
+   
+
+}
+
+;
+

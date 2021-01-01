@@ -1,28 +1,35 @@
 <!DOCTYPE html>
 <html>
+<html lang="en">
 
 <head>
     <title>calculator</title>
     <link rel="stylesheet" href="index.css" />
+    <meta name="veiwport" content="width divice-width" ,initial-scale-1.0 />
     <script src="./index.js"></script>
 </head>
 
 <body>
-    <div>
-        <input id="number1" type="number" />
-        <input id="number2" type="number" />
-        <button class="button" onclick="handleClickPlus()">
-            +
-        </button>
-        <button class="button" onclick="handleClickMinus()">
-            -
-        </button>
-        <button class="button" onclick="handleClickMultiply()">
-            X
-        </button>
-        <button class="button" onclick="handleClickDivide()">
-            /
-        </button>
+    <div class="container">
+        <div class="inputs"><input id="number1" type="number" />
+            <input id="number2" type="number" />
+        </div>
+
+
+        <div class="buttons"> <button class="button" onclick="handleClickPlus()">
+                +
+            </button>
+            <button class="button" onclick="handleClickMinus()">
+                -
+            </button>
+            <button class="button" onclick="handleClickMultiply()">
+                X
+            </button>
+            <button class="button" onclick="handleClickDivide()">
+                ÷
+            </button>
+        </div>
+
         <div id="result"></div>
     </div>
     <div>
